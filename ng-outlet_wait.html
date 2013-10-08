@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Simple and Stupid</title>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="assets/js/directives/ng-outlet.js"></script>
+</head>
+<body>
+<div ng-outlet="a_global_variable" ng-wait>
+    The global variable should be plugged into the angular world:
+    <span>{{a_global_variable}}</span>
+</div>
+
+<div ng-outlet="a_complex_variable" ng-wait>
+    We can also bind a complex variable:
+    <span>{{a_complex_variable.message}}</span>
+</div>
+
+<div ng-outlet="another_complex_variable.message" ng-wait>
+    Or bind a property only:
+    <span>{{another_complex_variable.message}}</span>
+</div>
+
+<script>
+    var a_global_variable, a_complex_variable, another_complex_variable;
+
+    angular.element(document).ready(function() {
+        angular.module('myApp', []);
+        angular.bootstrap(document, ['myApp']);
+        // if variables are assigned after bootstrap
+        a_global_variable = 'hello world';
+        a_complex_variable = {message: 'hello world'};
+        another_complex_variable = {message: 'hello world'};
+    });
+</script>
+<script>
+</script>
+</body>
+</html>

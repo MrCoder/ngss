@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html ng-app>
+<head>
+    <title>Angular Simple and Stupid</title>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="assets/js/directives/ng-outlet.js"></script>
+</head>
+<body>
+<script>
+    var a_global_variable = 'hello world';
+    var a_complex_variable = {message: 'hello world'}
+    var another_complex_variable = {message: 'hello world'}
+</script>
+<div ng-outlet="a_global_variable">
+    The global variable should be plugged into the angular world:
+    <span>{{a_global_variable}}</span>
+</div>
+
+<div ng-outlet="a_complex_variable">
+    We can also bind a complex variable:
+    <span>{{a_complex_variable.message}}</span>
+</div>
+
+<div ng-outlet="another_complex_variable.message">
+    Or bind a property only:
+    <span>{{another_complex_variable.message}}</span>
+</div>
+</body>
+</html>
