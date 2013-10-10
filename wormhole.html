@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Simple and Stupid</title>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+
+    <script type="text/javascript" src="assets/js/services/wormhole.js"></script>
+</head>
+<body ng-controller="MyController">
+
+<div ng-outlet="a_complex_variable" ng-wait>
+    We can also bind a complex variable:
+    <span>{{a_complex_variable.message}}</span>
+</div>
+
+
+<script>
+
+    var globalScope;
+    function MyController($scope, $wormhole) {
+
+        this.bind = function () {
+            $scope.$apply(function () {
+                $wormhole.connect('a_complex_variable');
+            });
+        };
+
+        $wormhole.expose(angular, this)('bind');
+    }
+
+    function asyncCall() {
+        setTimeout(function () {
+            console.log('getting scope ...');
+
+            console.log('global scope ready...');
+            angular.bind();
+        }, 2000);
+    }
+
+    asyncCall();
+    var a_complex_variable;
+
+    angular.element(document).ready(function () {
+        angular.module('myApp', ['wormhole.services']);
+        console.log('begin bootstrapping ...');
+        angular.bootstrap(document, ['myApp']);
+        console.log('finish bootstrapping ...');
+        // if variables are assigned after bootstrap
+        a_complex_variable = {message: 'hello world'};
+    });
+</script>
+<script>
+</script>
+</body>
+</html>
