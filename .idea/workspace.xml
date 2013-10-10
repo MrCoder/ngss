@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70f13cbf-7388-429f-9d0e-a9da75401e5f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-outlet.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/js/directives/ng-outlet.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-outlet_wait.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controller.html" afterPath="$PROJECT_DIR$/controller.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ng-outlet_wait_on-ready.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/directives/ng-outlet.js" afterPath="$PROJECT_DIR$/assets/js/directives/ng-outlet.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ngss.iws" />
@@ -24,7 +22,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -61,6 +58,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -70,55 +68,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="ng-outlet_wait_on-ready.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ng-outlet_wait_on-ready.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="7" selection-start="0" selection-end="295" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="285">
+            <state line="32" column="21" selection-start="912" selection-end="912" vertical-scroll-proportion="-11.666667" vertical-offset="200" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="controller.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller.html">
+      <file leaf-file-name="scope.onready.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/angular/scope.onready.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="109" selection-start="401" selection-end="401" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="2070">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="directive.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/directive.html">
+      <file leaf-file-name="angular.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/angular/angular.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="152" selection-end="237" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="285">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/input.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ng-outlet.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ng-outlet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="620" selection-end="620" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="525">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ng-outlet_wait.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ng-outlet_wait.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="57" selection-start="608" selection-end="608" vertical-scroll-proportion="-7.5" vertical-offset="90" max-vertical-offset="675">
+            <state line="2778" column="17" selection-start="100970" selection-end="100978" vertical-scroll-proportion="0.0" vertical-offset="44249" max-vertical-offset="268605">
               <folding />
             </state>
           </provider>
@@ -127,34 +98,7 @@
       <file leaf-file-name="ng-outlet.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/assets/js/directives/ng-outlet.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="52" selection-start="635" selection-end="635" vertical-scroll-proportion="0.5722071" vertical-offset="0" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="directive.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/directives/directive.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="0" selection-end="326" vertical-scroll-proportion="0.0" vertical-offset="60" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="named-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/controllers/named-controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="120">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/js/controllers/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="10" column="9" selection-start="506" selection-end="506" vertical-scroll-proportion="0.2245509" vertical-offset="0" max-vertical-offset="668">
               <folding />
             </state>
           </provider>
@@ -190,6 +134,7 @@
         <option value="$PROJECT_DIR$/controller.html" />
         <option value="$PROJECT_DIR$/ng-outlet.html" />
         <option value="$PROJECT_DIR$/ng-outlet_wait.html" />
+        <option value="$PROJECT_DIR$/ng-outlet_wait_on-ready.html" />
         <option value="$PROJECT_DIR$/assets/js/directives/ng-outlet.js" />
       </list>
     </option>
@@ -227,7 +172,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -246,8 +190,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="angular" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ngss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -274,7 +255,7 @@
       <recent name="C:\Users\peng.xiao\Dropbox\dev\angularjs\ngss" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.ng-outlet_wait.html">
+  <component name="RunManager" selected="JavaScript Debug.ng-outlet_wait_on-ready.html">
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ngss/index.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
@@ -291,6 +272,11 @@
       <method />
     </configuration>
     <configuration default="false" name="ng-outlet_wait.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ngss/ng-outlet_wait.html">
+      <RunnerSettings RunnerId="JavascriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ng-outlet_wait_on-ready.html" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true" temporary="true" uri="http://localhost:63342/ngss/ng-outlet_wait_on-ready.html">
       <RunnerSettings RunnerId="JavascriptDebugRunner" />
       <ConfigurationWrapper RunnerId="JavascriptDebugRunner" />
       <method />
@@ -405,6 +391,23 @@
       <patterns />
       <method />
     </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -440,35 +443,20 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.input.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet.html" />
       <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet_wait.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet_wait_on-ready.html" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet_wait.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.input.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet_wait_on-ready.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet_wait.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.ng-outlet.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.input.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -504,30 +492,37 @@
       <workItem from="1380375693565" duration="1755000" />
       <workItem from="1380458404342" duration="628000" />
       <workItem from="1381231315013" duration="2346000" />
-      <workItem from="1381233975786" duration="1195000" />
+      <workItem from="1381233975786" duration="1224000" />
+      <workItem from="1381317558047" duration="2713000" />
+      <workItem from="1381320343412" duration="1176000" />
+      <workItem from="1381321842088" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="Add input.html">
       <created>1381231436296</created>
       <updated>1381231436296</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add ng-outlet and ng-wait.">
+      <created>1381235189793</created>
+      <updated>1381235189793</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7911000" />
+    <option name="totallyTimeSpent" value="15371000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1004" height="856" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32867134" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32770744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3994374" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -538,7 +533,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2583682" sideWeight="0.6005626" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2583682" sideWeight="0.60113156" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -546,10 +541,41 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32770744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2583682" sideWeight="0.60113156" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32956153" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39886847" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -559,31 +585,18 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Add input.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add input.html" />
+    <MESSAGE value="add ng-outlet and ng-wait." />
+    <option name="LAST_COMMIT_MESSAGE" value="add ng-outlet and ng-wait." />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="6" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controller.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="63" selection-start="215" selection-end="215" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/directives/usability-required.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="29" selection-start="67" selection-end="67" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/controllers/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/angular/angular.js">
@@ -595,16 +608,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/controllers/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/angular/angular.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15133" column="40" selection-start="631651" selection-end="631651" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/directives/usability-required.js">
@@ -616,9 +620,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/controllers/named-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0">
-          <folding />
-        </state>
+        <state line="1" column="20" selection-start="54" selection-end="54" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/directives/directive.js">
@@ -630,49 +632,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ng-outlet.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="620" selection-end="620" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="525">
+        <state line="18" column="36" selection-start="620" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="525">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/input.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="330">
+        <state line="8" column="9" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="330">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="0" selection-end="295" vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="285">
+        <state line="9" column="7" selection-start="0" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="109" selection-start="401" selection-end="401" vertical-scroll-proportion="-5.0" vertical-offset="0" max-vertical-offset="285">
+        <state line="8" column="109" selection-start="401" selection-end="401" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/directive.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="152" selection-end="237" vertical-scroll-proportion="-3.125" vertical-offset="0" max-vertical-offset="285">
+        <state line="5" column="0" selection-start="152" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ng-outlet_wait.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="57" selection-start="608" selection-end="608" vertical-scroll-proportion="-7.5" vertical-offset="90" max-vertical-offset="675">
+        <state line="18" column="57" selection-start="608" selection-end="608" vertical-scroll-proportion="-9.791667" vertical-offset="35" max-vertical-offset="675">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/angular/angular.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2778" column="17" selection-start="100970" selection-end="100978" vertical-scroll-proportion="0.0" vertical-offset="44249" max-vertical-offset="268605">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/angular/scope.onready.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2070">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ng-outlet_wait_on-ready.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="21" selection-start="912" selection-end="912" vertical-scroll-proportion="-11.666667" vertical-offset="200" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/directives/ng-outlet.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="52" selection-start="635" selection-end="635" vertical-scroll-proportion="0.5722071" vertical-offset="0" max-vertical-offset="465">
+        <state line="10" column="9" selection-start="506" selection-end="506" vertical-scroll-proportion="0.2245509" vertical-offset="0" max-vertical-offset="668">
           <folding />
         </state>
       </provider>

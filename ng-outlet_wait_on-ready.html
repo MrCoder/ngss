@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Angular Simple and Stupid</title>
+    <script type="text/javascript" src="vendor/angular/angular.js"></script>
+    <script type="text/javascript" src="vendor/angular/scope.onready.js"></script>
+
+    <script type="text/javascript" src="assets/js/directives/ng-outlet.js"></script>
+</head>
+<body ng-controller="MyController">
+
+<div ng-outlet="a_complex_variable" ng-wait >
+    We can also bind a complex variable:
+    <span>{{a_complex_variable.message}}</span>
+</div>
+
+
+<script>
+
+    var globalScope;
+    function MyController($scope){
+        $scope.$prepareForReady();
+        console.log('global scope prepare for ready ...');
+
+        $scope.$whenReady(function(){
+            console.log('read to run from controller ...');
+        });
+    }
+
+    function asyncCall(){
+        setTimeout(function(){
+            console.log('getting scope ...');
+            var scope = angular
+                    .element(document.querySelector('div'))
+                    .scope();
+            console.log('global scope ready...');
+            scope.$onReady(123);
+        }, 2);
+    }
+
+    asyncCall();
+    var a_complex_variable;
+
+    angular.element(document).ready(function() {
+        angular.module('myApp', ['Scope.onReady']);
+        console.log('begin bootstrapping ...');
+        angular.bootstrap(document, ['myApp']);
+        console.log('finish bootstrapping ...');
+        // if variables are assigned after bootstrap
+        a_complex_variable = {message: 'hello world'};
+    });
+</script>
+<script>
+</script>
+</body>
+</html>
